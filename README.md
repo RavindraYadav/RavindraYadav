@@ -1,5 +1,5 @@
 # 💫 About Me:
-I am currently working on test Automation company<br>I am looking to collaborate on Test automation framework<br>I am looking for help with AI Locators for test automation<br>I am currently learning AI<br>I am a Product Manager, Test Architect, Head of QA<br>I love trying new AI tools
+I build scalable test automation frameworks and AI-assisted testing solutions for complex enterprise systems (especially Salesforce). I enjoy breaking things before customers do, tuning pipelines, and turning flaky tests into reliable signals. Always happy to learn, experiment, and contribute to open-source projects that make testing faster, smarter, and less painful.
 
 
 ## 🌐 Socials:
