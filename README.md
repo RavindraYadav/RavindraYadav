@@ -1,12 +1,10 @@
 ## Ravindra Yadav
 
-QA architect. I build the tooling that lets AI agents write, heal and run tests against
-enterprise systems, Salesforce and Microsoft Dynamics, where the UI shifts several times a
-year and a suite is only ever as reliable as its worst locator.
+I work in Quality Engineering and Product Technology, with a background in enterprise test automation, engineering architecture, and software delivery.
 
-The interesting problem isn't getting a model to generate a test. It's everything around that:
-knowing what to generate it against, proving it's correct before it reaches a pipeline,
-repairing it when the application moves, and explaining why it failed when it does.
+Over the years, I've worked on automation tooling for platforms including Salesforce and Microsoft Dynamics, along with framework design, CI/CD integration, release quality, and engineering team leadership.
+
+More recently, my interests have expanded into AI-assisted test authoring, self-healing automation, and improving the reliability of AI-generated tests.
 
 ### What I work on
 
@@ -47,6 +45,12 @@ one big AI feature, it's in twenty utilities that each remove ten minutes.
 **Agentic content pipeline** *(side project)* - research, draft, human approval gate, publish,
 on scheduled GitHub Actions with the approval step deliberately non-optional. Built to find out
 where agentic workflows break when nobody's watching. They break at the gates.
+
+**Current interests**
+
+I'm particularly interested in how AI can improve test design without compromising reliability, especially around functional dependencies, regression risk, and validation of generated tests.
+
+Most of my professional development work has been in private organizational repositories. This GitHub account contains some earlier experiments and examples of concepts I've explored over time.
 
 ### Tech
 
