@@ -1,7 +1,7 @@
 ## Ravindra Yadav
 
 QA architect. I build the tooling that lets AI agents write, heal and run tests against
-enterprise systems — Salesforce and Microsoft Dynamics, where the UI shifts several times a
+enterprise systems, Salesforce and Microsoft Dynamics, where the UI shifts several times a
 year and a suite is only ever as reliable as its worst locator.
 
 The interesting problem isn't getting a model to generate a test. It's everything around that:
