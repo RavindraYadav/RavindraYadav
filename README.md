@@ -10,41 +10,41 @@ repairing it when the application moves, and explaining why it failed when it do
 
 ### What I work on
 
-**AI test authoring** — generating executable tests from live system metadata rather than from
+**AI test authoring** - generating executable tests from live system metadata rather than from
 a model's memory of an API. The agent reads the real project and the real org, then writes
 against what's actually there.
 
-**AI self-healing** — locators that repair themselves when the application changes underneath
+**AI self-healing** - locators that repair themselves when the application changes underneath
 them. The hard part isn't finding a replacement element, it's deciding when *not* to: a heal
 that silently retargets the wrong field turns a caught regression into a passing test.
 
-**Agentic tooling for test frameworks** — exposing an automation framework to LLM agents over
+**Agentic tooling for test frameworks** - exposing an automation framework to LLM agents over
 MCP, so an assistant can inspect a project, generate artifacts, and validate its own output
 inside one loop instead of handing a human a plausible-looking guess.
 
-**Component discovery for dynamic UIs** — deriving stable page objects from modern component
+**Component discovery for dynamic UIs** - deriving stable page objects from modern component
 frameworks, low-code screens and industry-specific components, where markup is generated at
 runtime and conventional selectors rot on contact.
 
-**Deterministic gates around non-deterministic generation** — rule-based validation and quality
+**Deterministic gates around non-deterministic generation** - rule-based validation and quality
 scoring at every level of a test hierarchy. Generation is probabilistic; the gate in front of
 it shouldn't be. This decides whether AI-authored tests are an asset or a new category of flake.
 
-**Automated failure triage** — turning a wall of red into a ranked root-cause list, so the first
+**Automated failure triage** - turning a wall of red into a ranked root-cause list, so the first
 question after a failed run stops being "which of these 200 are real?"
 
-**Release-impact analysis** — reading vendor release notes as a diff against an existing suite:
+**Release-impact analysis** - reading vendor release notes as a diff against an existing suite:
 what changed in the rendered UI, which patterns break, what it costs to fix before it lands.
 
-**Pipeline and orchestration** — headless runs, build-tool integration, artifact and result
+**Pipeline and orchestration** - headless runs, build-tool integration, artifact and result
 reporting into quality dashboards, and the configuration management that keeps it reproducible
 across environments.
 
-**AI in the daily workflow** — MCP servers, agent skills and small CLIs for the work around the
+**AI in the daily workflow** - MCP servers, agent skills and small CLIs for the work around the
 work: triage, documentation, release review, repo chores. Most of the compounding gain isn't in
 one big AI feature, it's in twenty utilities that each remove ten minutes.
 
-**Agentic content pipeline** *(side project)* — research, draft, human approval gate, publish,
+**Agentic content pipeline** *(side project)* - research, draft, human approval gate, publish,
 on scheduled GitHub Actions with the approval step deliberately non-optional. Built to find out
 where agentic workflows break when nobody's watching. They break at the gates.
 
